@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1519041199" Type="User" Language="SFX" Hash="{B1DEF299-89D4-44BE-2F3E-49EBBC75527E}">
+			<ShortName>WwiseTestSB</ShortName>
+			<Path>WwiseTestSB.bnk</Path>
+			<Media>
+				<File Id="959644690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tema01.wav</ShortName>
+					<CachePath>SFX/tema01_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="963472260" Name="Play_tema01" DurationType="OneShot" DurationMin="38.4" DurationMax="38.4">
+					<MediaRefs>
+						<MediaRef Id="959644690"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{83D1528D-D2A6-9EC5-2B90-88F0777ADF57}</FileHash>
+</SoundBanksInfo>

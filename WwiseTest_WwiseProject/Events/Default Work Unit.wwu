@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C7B8A034-7E6B-479A-9993-07E834433C56}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C7B8A034-7E6B-479A-9993-07E834433C56}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_tema01" ID="{450700DF-8897-415C-95D0-53536303C9A9}">
+					<ChildrenList>
+						<Action Name="" ID="{F10F9499-E385-4E30-8627-EDF1C25A26B5}" ShortID="87327805">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tema01" ID="{E90C454D-BE92-4AEE-BAB8-D776854239BE}" WorkUnitID="{3A89FD80-FBCE-4AB2-AF9A-003B37D0A151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
